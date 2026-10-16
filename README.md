@@ -1,25 +1,18 @@
 # Bowei Zhao — Academic homepage
 
-英文个人学术主页初稿。无依赖、无构建步骤，可部署到 GitHub Pages。
+用于 https://zhao-bowei.github.io/ 的英文个人学术主页。纯静态网页，无需安装依赖。
 
-## 发布步骤
+## 预览
+解压后直接打开 index.html。确保 style.css、explorer.js 和 favicon.svg 在同一目录。
 
-1. 先确认 GitHub 用户名。只有当用户名为 `Zhao-Bowei` 时，个人主页仓库名才应为 `Zhao-Bowei.github.io`。否则使用 `实际用户名.github.io`。
-2. GitHub → New repository，创建上述名称的 Public 仓库。
-3. 解压本压缩包，将 `index.html`、`style.css` 和 `.nojekyll` 上传到仓库根目录，不要再套一层文件夹。提交到 `main` 分支。
-4. 仓库 Settings → Pages → Build and deployment → Source 选择 Deploy from a branch，Branch 选择 main，目录选择 / (root)，保存。
-5. 等待部署完成，在 Pages 页面打开实际生成的地址。
+## 更新 GitHub Pages
+将本目录内的 index.html、style.css、explorer.js、favicon.svg、.nojekyll 上传至 Zhao-Bowei.github.io 仓库根目录，替换同名文件。不要把整个文件夹作为一级目录上传。
+仓库 Settings → Pages → Deploy from a branch → main → / (root)。
+若已有其他工作流或主题，请先保留原文件备份，再根据实际部署配置更新。
 
-## 发布前核对
-
-- 英文姓名暂用 Bowei Zhao；请按论文署名习惯调整。
-- 教育经历来自提供的简历；核对学位英文名称、预计毕业日期，按需补充研究单位和导师。
-- 主研究稿件写为 Manuscript in preparation。未添加未核实的论文标题、作者、DOI或定量结论。
-- 邮箱为 zhaobw@bao.ac.cn；请确认愿意公开。
-- 未公开手机号、年龄、性别、求职意向，也未提供原求职简历下载。
-- 图形为 CSS 抽象装饰，不是真实观测数据。后续可替换为自己的研究图。
-- 后续建议补充正式英文 CV、论文清单、GitHub / ORCID 链接、研究成果图。
-
-## 修改
-
-文本位于 index.html，样式位于 style.css。浏览器打开 index.html 可本地查看。修改后提交到 GitHub 即可更新。
+## 内容与设计
+暖白底、墨蓝文字、衬线标题。重点展开一个主项目，另外两个项目用简短介绍呈现。
+首页交互图为确定性合成密度场，使用任意单位，仅演示阈值选区，不是 Leike 数据、实测结果或分形维数估计。
+没有虚构论文、引用、代码项目或数据下载链接。未附求职简历，避免公开其中的手机号、年龄等信息。
+研究正文为 index.html，样式为 style.css，示意交互为 explorer.js。
+后续可补充真实研究图、经过核实的论文条目、公开研究代码，以及学术版 CV。
