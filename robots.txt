@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zhao-bowei.github.io/sitemap.xml
